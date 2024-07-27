@@ -28,6 +28,7 @@ a {
   font-size: 1.3rem;
   font-weight: 500;
   color: #ffffff;
+  transition: opacity 300ms;
 }
 
 .btn:hover {
