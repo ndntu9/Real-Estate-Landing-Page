@@ -123,3 +123,50 @@ a {
 .header-media {
   margin-right: -100px;
 }
+
+#client {
+  margin-top: 79px;
+  margin-bottom: 40px;
+}
+
+#client .main {
+  padding-top: 43px;
+  padding-bottom: 41px;
+}
+
+#client .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+#client .row:first-child {
+  margin-bottom: 23px;
+}
+
+#client .row span {
+  color: #7d8589;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-logo .logo {
+  padding: 32px 0 32px 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  transition: box-shadow 300ms;
+}
+
+.client-logo .logo:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
