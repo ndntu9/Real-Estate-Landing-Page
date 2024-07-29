@@ -161,8 +161,7 @@ a {
 .client-logo .logo {
   padding: 32px 0 32px 0;
   flex: 1;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   transition: box-shadow 300ms;
 }
 
