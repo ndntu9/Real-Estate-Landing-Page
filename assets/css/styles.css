@@ -244,3 +244,102 @@ a {
 .guide-btn {
   padding: 18px 25px 19px;
 }
+
+#featured {
+  background-color: #f5fafe;
+}
+
+#featured .main {
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+
+#featured .sub-title {
+  margin-bottom: 15px;
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+#featured .row {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#featured .row span {
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+#featured .row .link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #0689ff;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+#featured .row .link:hover .arrow {
+  animation-name: move;
+  animation-duration: 1s;
+}
+
+.list-featured {
+  display: flex;
+  gap: 30px;
+}
+
+.list-featured .item {
+  flex: 1;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.6);
+}
+
+.list-featured .thumb {
+  width: 100%;
+  height: 227px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.list-featured .body {
+  padding: 17px 20px 24px;
+}
+
+.list-featured .title {
+  color: #000339;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.list-featured .desc {
+  margin-top: 11px;
+  margin-bottom: 22px;
+  color: #a3a6ab;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.list-featured .info {
+  display: flex;
+  align-items: center;
+}
+
+.list-featured .label {
+  margin-left: 8px;
+  margin-right: 22px;
+  color: #4d4d52;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
