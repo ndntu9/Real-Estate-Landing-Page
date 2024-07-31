@@ -61,7 +61,8 @@ a {
 }
 
 .navbar .menu a:hover,
-.sign-in:hover {
+.sign-in:hover,
+.footer-link a:hover {
   background-color: rgba(169, 177, 212, 0.6);
   border-radius: 5px;
 }
@@ -567,4 +568,70 @@ a {
   position: absolute;
   bottom: 0;
   right: 221px;
+}
+
+#footer .main {
+  padding-top: 50px;
+  padding-bottom: 58px;
+}
+
+.footer-link {
+  display: flex;
+  gap: 185px;
+}
+
+.footer-link .col-title {
+  margin-bottom: 42px;
+  color: #1c1c1d;
+  font-family: "Lato";
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.footer-link li {
+  margin-bottom: 15px;
+}
+
+.footer-link a {
+  padding: 3px 7px;
+  color: #7a7a7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  white-space: nowrap;
+  transition: background-color 300ms;
+}
+
+.footer-link .desc {
+  color: #7a7a7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-icon {
+  text-align: center;
+  line-height: 28px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.copyright {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright p {
+  color: #c2c2c2;
+  font-size: 1.4rem;
+  font-weight: 400;
 }
