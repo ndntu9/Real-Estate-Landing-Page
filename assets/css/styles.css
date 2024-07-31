@@ -521,3 +521,50 @@ a {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+#subscribe {
+  margin-top: 51px;
+  margin-bottom: 55px;
+}
+
+#subscribe .main {
+  margin-top: 90px;
+  width: 1110px;
+  height: 370px;
+  border-radius: 20px;
+  background-color: #063183;
+  position: relative;
+}
+
+#subscribe .content {
+  padding-top: 149px;
+  padding-left: 80px;
+}
+
+#subscribe .content .sub-title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 35px;
+}
+
+#subscribe .content .desc {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.subscribe-btn {
+  padding: 18px 43px 19px;
+  background-color: #fff;
+  color: #002366;
+}
+
+#subscribe .thumb {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
+}
